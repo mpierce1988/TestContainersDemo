@@ -1,0 +1,28 @@
+﻿services:
+  testcontainerdemo.console:
+    image: testcontainerdemo.console
+    build:
+      context: .
+      dockerfile: TestContainerDemo.Console/Dockerfile
+    depends_on:
+      database:
+        condition: service_healthy
+    stdin_open: true
+    tty: true
+  database:
+    image: sqlserver-prerestoredtwo
+    platform: linux/amd64
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
+    build:
+      context: .
+      dockerfile: Database/Dockerfile.final
+    healthcheck:
+      test: [ "CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "SA", "-P", "YourStrong!Passw0rd", "-Q", "SELECT 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 15s

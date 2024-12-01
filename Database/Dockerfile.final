@@ -1,0 +1,10 @@
+# Dockerfile.final
+FROM sqlserver-with-adventureworkstwo
+
+# (Optional) Install additional tools or perform further configurations if needed
+
+# Expose SQL Server port
+EXPOSE 1433
+
+# Set the default command to run SQL Server
+CMD [ "/opt/mssql/bin/sqlservr" ]
