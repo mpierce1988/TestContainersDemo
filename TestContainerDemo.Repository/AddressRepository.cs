@@ -12,6 +12,14 @@ public class AddressRepository : IAddressRepository
     private readonly string _connectionString =
         "Server=database,1433;Database=AdventureWorks;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;";
 
+    public AddressRepository(string connectionString = "")
+    {
+        if (!string.IsNullOrEmpty(connectionString))
+        {
+            _connectionString = connectionString;
+        }
+    }
+
     private IDbConnection CreateConnection() => new SqlConnection(_connectionString);
     
     public async Task<IEnumerable<Address>> GetAllAsync()
