@@ -14,7 +14,8 @@
         <PackageReference Include="Testcontainers" Version="4.0.0" />
         <PackageReference Include="TestContainers.Container.Database.MsSql" Version="1.5.4" />
         <PackageReference Include="Testcontainers.MsSql" Version="4.0.0" />
-        <PackageReference Include="xunit" Version="2.4.2"/>
+        <PackageReference Include="Verify.Xunit" Version="28.4.0" />
+        <PackageReference Include="xunit" Version="2.9.2" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
@@ -28,6 +29,12 @@
     <ItemGroup>
       <ProjectReference Include="..\TestContainerDemo.Repository\TestContainerDemo.Repository.csproj" />
       <ProjectReference Include="..\TestContainerDemo.Service\TestContainerDemo.Service.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="snapshots\AddressServiceTests.GetAddresses_SnapshotAllAddresses_ShouldReturnCorrectAddresses.verified.txt">
+        <ParentFile>AddressServiceTests</ParentFile>
+      </None>
     </ItemGroup>
 
 </Project>

@@ -11,6 +11,10 @@ public class AddressService : IAddressService
     
     public async Task<IEnumerable<Model.Address>> GetAllAsync()
     {
+        //var results =  await _addressRepository.GetAllAsync();
+        
+        // TODO remove bug
+        //return results.TakeLast(25).ToList();
         return await _addressRepository.GetAllAsync();
     }
 

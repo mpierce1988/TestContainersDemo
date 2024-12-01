@@ -1,4 +1,23 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e5838d8_002D2528_002D415d_002D9181_002D5f471f91a74a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddressServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=12cd59ae_002D5d5a_002D4527_002D89fe_002Db890fc97c072/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddressServiceTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::480114E6-2BAD-4E70-B0A8-2E75F79481E7::net8.0::TestContainerDemo.IntegrationTests.AddressServiceTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::480114E6-2BAD-4E70-B0A8-2E75F79481E7::net8.0::TestContainerDemo.IntegrationTests.VerifyChecksTests.Run&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4fd3b8e2_002Dc9e1_002D416b_002D99c5_002D6644368135f7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetAddresses_ReturnsAddresses" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::480114E6-2BAD-4E70-B0A8-2E75F79481E7::net8.0::TestContainerDemo.IntegrationTests.AddressServiceTests.GetAddresses_ReturnsAddresses&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e5838d8_002D2528_002D415d_002D9181_002D5f471f91a74a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddressServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Project Location="/Users/michaelpierce/Documents/Coding Projects/TestContainerDemo/TestContainerDemo/TestContainerDemo.IntegrationTests" Presentation="&amp;lt;TestContainerDemo.IntegrationTests&amp;gt;" /&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b641e784_002Dd1dc_002D4566_002Db657_002Dd973f3b0c291/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetAddresses_SnapshotAllAddresses_ShouldReturnCorrectAddresses" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::480114E6-2BAD-4E70-B0A8-2E75F79481E7::net8.0::TestContainerDemo.IntegrationTests.AddressServiceTests.GetAddresses_SnapshotAllAddresses_ShouldReturnCorrectAddresses&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/HangingTestRunnerResponse/@EntryValue">KillProcess</s:String>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/WaitIntervalForRunnerToExit/@EntryValue">90</s:Int64>
+	<s:Int64 x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/WaitIntervalForSpawnedProcessesToExit/@EntryValue">30</s:Int64></wpf:ResourceDictionary>
