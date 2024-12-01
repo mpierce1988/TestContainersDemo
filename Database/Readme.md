@@ -2,6 +2,12 @@
 
 This guide will walk you through the process of setting up a SQL Server instance in a Docker container on a MacOS machine with an M1 (ARM) architecture. By pre-restoring the database, you can significantly reduce container startup times, making it ideal for testing and development environments.
 
+TL:DR USE AUTOMATED SCRIPT
+
+```bash
+./build_sqlserver_image.sh
+```
+
 ## Table of Contents
 
 - [Prerequisites](#Prerequisites)

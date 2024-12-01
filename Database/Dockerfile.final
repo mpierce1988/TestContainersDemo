@@ -1,5 +1,5 @@
 # Dockerfile.final
-FROM sqlserver-with-adventureworkstwo
+FROM sqlserver-with-adventureworks-auto
 
 # (Optional) Install additional tools or perform further configurations if needed
 

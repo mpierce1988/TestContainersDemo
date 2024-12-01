@@ -12,7 +12,7 @@ public class DatabaseFixture : IAsyncLifetime
     public async Task InitializeAsync()
     {
         var builder = new MsSqlBuilder()
-            .WithImage("sqlserver-prerestoredtwo")
+            .WithImage("sqlserver-prerestored-auto")
             .WithCleanUp(true)
             .WithPortBinding(1433, 1433)
             .WithPassword("YourStrong!Passw0rd");
