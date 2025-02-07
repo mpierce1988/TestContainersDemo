@@ -25,6 +25,15 @@ TL:DR USE AUTOMATED SCRIPT
 - [Additional Considerations](#Additional-Considerations)
 - [Conclusion](#Conclusion)
 
+## Purpose
+The purpose of this demo is to showcase a potential solution for integration testing a legacy application that has business logic in both stored procedures and application code. 
+
+The following pain points are addressed:
+- How to easily reset a test database's state
+- How to bash scripts to automate Docker image creation from a SQL Server database backup
+- How to capture the results of known-good behaviour to easily create valid test results
+- How to use the TestContainers Nuget package in C# to manage test Docker containers
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed and configured on your MacOS machine:
